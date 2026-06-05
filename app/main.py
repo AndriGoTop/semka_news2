@@ -22,7 +22,7 @@ def create_post(data: NewsScheme):
         )
         session.add(post)
         session.commit()
-    return post
+    return {"status": "OK"}
 
 
 @app.post("/news/parsing", tags=["Посты"], status_code=200)
