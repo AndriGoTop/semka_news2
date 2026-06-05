@@ -6,7 +6,7 @@
 POSTGRES_PASSWORD=<Пароль БД>
 POSTGRES_USER=<Пользователь БД>
 POSTGRES_DB=<Имя БД>
-POSTGRES_HOST=<Адрес БД (Если поднимать через Docker compost, то значение -- bd)>
+POSTGRES_HOST=bd
 POSTGRES_PORT=5432
 GIGA_KEY=<API ключ GigaChat>
 GIGA_USER_ID=<ID пользователя GigaChat>
